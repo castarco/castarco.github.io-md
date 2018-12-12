@@ -1,0 +1,58 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: Coder Spirit
+email: castarco@litipk.com
+description: >
+  I'm Andrés Correa Casablanca. I work as a software engineer, but I have a scientist in my heart. I love mathematics,
+  algorithms, AI, and machine learning.
+
+baseurl: "/"
+url: "https://blog.coderspirit.xyz"
+twitter_username: castarco
+github_username:  castarco
+
+page.comments: true
+site.disqus_shortname: coderspirit
+
+author:
+  name: 'Andrés Correa Casablanca'
+  email: castarco@litipk.com
+  twitter_username: castarco
+  github_username:  castarco
+  linkedin_username:  castarco
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - classifier-reborn
+
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
