@@ -94,8 +94,8 @@ The key difference is on the capabilities that the scripts have in one platform
 or another. While in Bitcoin the scripting capabilities were limited on purpose
 to be non-Turing complete for security reasons,
 [Vitalik Butterin](https://en.wikipedia.org/wiki/Vitalik_Buterin) proposed a way
-to execute smart contracts in a secure way without limiting their capabilities
-(it's worth to say that this came at a price, but I'll leave this point for some
+to securely execute smart contracts in without limiting their capabilities (it's
+worth to say that this came at a price, but I'll leave this point for some
 future article).
 
 Here I end my first and very brief post, but as a bonus I'll link two
