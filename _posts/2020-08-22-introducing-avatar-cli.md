@@ -11,6 +11,8 @@ tags:
     - Tooling
 ---
 
+![Avatar-CLI Logo](/images/2020/20200822_avatar_logo.png){:height="340px" width="340px" display="inline" align="left" margin="0px 0px"}
+
 It has been a long time since the last time I wrote an article in this blog, but
 today I had something I wanted to share with you.
 
