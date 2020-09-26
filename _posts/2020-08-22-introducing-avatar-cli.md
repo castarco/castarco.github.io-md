@@ -6,21 +6,17 @@ categories:
     - "Software Engineering"
     - Tooling
 tags:
+    - "Avatar-CLI"
     - Docker
     - Rust
     - Tooling
 ---
 
-![Avatar-CLI Logo](/images/2020/20200822_avatar_logo.png){:height="340px" width="340px" display="inline" align="left" margin="0px 0px"}
-
-It has been a long time since the last time I wrote an article in this blog, but
-today I had something I wanted to share with you.
-
-## A short summary
-
 These past weeks I've been working on a personal project called
 [Avatar-CLI](https://gitlab.com/avatar-cli/avatar-cli), a cli tool meant to ease
 the usage of other containerized cli programs as if they were native.
+
+![Avatar-CLI Logo](/images/2020/20200822_avatar_logo.png){:height="340px" width="340px" display="inline" align="left" margin="0px 0px"}
 
 Why I felt the need for such kind of tool? Well, this idea came to me around 3
 years ago, while I was working in a team where some developers were using Linux,
